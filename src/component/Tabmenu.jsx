@@ -10,13 +10,13 @@ const Tabmenu = () => {
         <div className="inner">
           <h2>HOT! 인기 공연/전시</h2>
           <div className="tab_btn">
-            <NavLink to="/Musical" activeClassName="active-link">뮤지컬</NavLink>
+            <NavLink to="/" activeClassName="active-link">뮤지컬</NavLink>
             <NavLink to="/Theater" activeClassName="active-link">연극</NavLink>
             <NavLink to="/Exhibit" activeClassName="active-link">전시/행사</NavLink>
           </div>
           <div className="tab_list">
             <Routes>
-              <Route path="/Musical" element={<Tablist1 />} />
+              <Route path="/" element={<Tablist1 />} />
               <Route path="/Theater" element={<Tablist2 />} />
               <Route path="/Exhibit" element={<Tablist3 />} />
             </Routes>
@@ -26,5 +26,6 @@ const Tabmenu = () => {
     </>
   )
 }
+
 
 export default Tabmenu
