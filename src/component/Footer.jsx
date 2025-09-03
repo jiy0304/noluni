@@ -7,13 +7,13 @@ const Footer = () => {
         <div className="inner">
           <div className="footer_logo"><img src={FooterLogo} alt="NOL" /></div>
           <address>
-            (주)놀유니버스
-            대표이사: 배보찬
-            사업자 등록번호: 824-81-02515
-            통신판매업신고:2024-성남수정-0912
+            <span>(주)놀유니버스</span>
+            <span>대표이사: 배보찬</span>
+            <span>사업자 등록번호: 824-81-02515</span>
+            <span>통신판매업신고:2024-성남수정-0912</span>
             메일: help@nol.com <br />
-            관광사업자 등록번호: 제2024-000024호
-            주소: 경기도 성남시 수정구 금토로 70 (금토동, 텐엑스타워)
+            <span>관광사업자 등록번호: 제2024-000024호</span>
+            <span>주소: 경기도 성남시 수정구 금토로 70 (금토동, 텐엑스타워)</span>
             호스팅 서비스 제공자: (주)놀유니버스 <br />
             고객센터: 1644-1346 (오전 9시 - 익일 새벽 3시)
           </address>
@@ -30,4 +30,5 @@ const Footer = () => {
     </>
   )
 }
+
 export default Footer
